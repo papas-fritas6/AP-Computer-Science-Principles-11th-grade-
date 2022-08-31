@@ -27,7 +27,6 @@ x = y = z = "Orange"
 # RANDOM NUMBER
 import os
 import random
-
 os.system('clear')
 print(random.randrange(1, 10))
 
@@ -41,4 +40,35 @@ print(c)
 age = "36"
 text = "My name is patricia, I am " + age
 print(text)
-
+os.system('clear')
+# Python Boolean
+#it uses 2 values true or false, it evaulates any expression to true or false, python then evaluates amd reitrms to a boolean answer
+print(10 > 9)
+print(10 == 9)
+#1 equal means assign, 2 equals mean equal to
+print(10 < 9)
+# Boolean in a condition (an if statement)
+os.system('clear')
+a = 200
+b = 33
+if b > a:
+    print("b is greater than a")
+else:
+    print("b is greater than a")
+#evaluate values and variables
+#evaluate a string and a number
+print(bool("Hello"))
+print(bool(15))
+#Python operators
+#Examples 
+x=15
+y=2
+# print x % y
+print(x//y) #the floor divison // rounds the result down to the nearest whole number
+os.system('clear')
+x, y = 2, 15
+z= "hello"
+if x<y:
+  print("true")
+print (z)
+os.system('clear')
